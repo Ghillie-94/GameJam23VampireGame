@@ -1577,6 +1577,7 @@ GameObject:
   - component: {fileID: 1765060781}
   - component: {fileID: 1765060780}
   - component: {fileID: 1765060779}
+  - component: {fileID: 1765060783}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
@@ -1670,6 +1671,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!320 &1765060783
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765060778}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 0ecd51f69a9b75d4db39c80b752cf5fb, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 4785848513301825995, guid: 0ecd51f69a9b75d4db39c80b752cf5fb, type: 2}
+    value: {fileID: 0}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &1840131793
 GameObject:
   m_ObjectHideFlags: 0
@@ -1848,7 +1868,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Blood Root
+  m_text: BloodRoot
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fadd2917d2699694ba5c46eae199370e, type: 2}
   m_sharedMaterial: {fileID: 5421381516149553111, guid: fadd2917d2699694ba5c46eae199370e, type: 2}
